@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yutaro0224.petyakutyatimer.MainActivity"
+    android:background="#1dc9cf">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="〈日本語〉\nペチャクチャナイト向けのタイマーアプリです。\nスライドが変わる20秒ごとに「バイブが2回」。\nその5秒前に心構えとして「バイブが1回」なります。\nスライド終了の6分40秒では「バイブが5回」なります。\n\n\n〈English〉\nFor PechaKucha Night It is a timer application.\n[Vibe twice] every 20 seconds when the slide changes, As a mental attitude 5 seconds before that[Vibe will be one time].\nAt 6 minutes and 40 seconds of slide end [Vibe will be 5 times]."
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <ImageButton
+        android:id="@+id/returnButton"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:src="@drawable/return_button"
+        android:scaleType="centerInside"
+        android:background="@drawable/image_button_bg"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>
